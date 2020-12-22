@@ -289,7 +289,7 @@ export const TenderColumns: Array<ITableColumnTender> = [
 				if (buyer.address && buyer.address.ot && buyer.address.ot.nutscode) {
 					let nut = buyer.address.ot.nutscode;
 					let city = buyer.address.city;
-					result.push({icon: ICON.region, content: city, hint: library.i18n.get('Profile Page') + ' NUTS ' + nut, link: '/region/' + nut});
+					result.push({icon: ICON.region, content: city, hint: library.i18n.get('Profile Page') + ' ' + city, link: '/region/' + nut});
 				}
 			});
 			return ColumnsFormatUtils.checkEntryCollapse(ColumnsFormatUtils.sortListByContent(result), library);

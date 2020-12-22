@@ -100,7 +100,7 @@ export class DashboardsIndicatorComponent implements OnChanges {
 				'For example, if you think that the length of the advertisement period is not as important as the other indicators, you can adjust the weight of the latter indicator to 5 and it\'s score will only count half as much as the others. Or if you want exclude some indicators entirely and only keep those most important to you, e.g. to see the combined score for the prevalence of single bidding and non-open procedure types, you can adjust the weight of all other indicators to 0.'
 			],
 			averageScoreOfIndicators: [
-				'The Average Score of Transparency Indicators figure shows the share of available key fields during the selected time period.',
+				'The Average Score of Integrity Indicators figure shows the share of available key fields during the selected time period.',
 				'For example, an average score of 90 means that 90% of the key fields (covered by the individual transparency indicators) were available in the source data during the selected time period.'
 			],
 			averageScoreOverTime: [

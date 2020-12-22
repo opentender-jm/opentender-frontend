@@ -19,7 +19,7 @@ import {PlatformService} from '../../services/platform.service';
 			</div>
 			<div class="graph-toolbar-container">
 				<div class="graph-toolbar graph-toolbar-left">
-					<button class="tool-button" [ngClass]="{down:!map_companies}" i18n>Buyers</button>
+					<button class="tool-button" [ngClass]="{down:!map_companies}" i18n>Tenders</button>
 				</div>
 				<div class="graph-toolbar graph-toolbar-right">
 					<button class="tool-button" [ngClass]="{down:map_level==0}" (click)="setLevel(0)" i18n>Country</button>
