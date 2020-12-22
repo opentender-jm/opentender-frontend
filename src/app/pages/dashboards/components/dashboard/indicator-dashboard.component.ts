@@ -101,7 +101,7 @@ export class DashboardsIndicatorComponent implements OnChanges {
 			],
 			averageScoreOfIndicators: [
 				'The Average Score of Integrity Indicators figure shows the share of available key fields during the selected time period.',
-				'For example, an average score of 90 means that 90% of the key fields (covered by the individual transparency indicators) were available in the source data during the selected time period.'
+				'For example, an average score of 90 means that 90% of the key fields (covered by the individual Integrity indicators) were available in the source data during the selected time period.'
 			],
 			averageScoreOverTime: [
 				'The Average Score of Integrity Indicators over Time figure shows the average of the individual Integrity Indicators for all contracts during the selected time period by years.',
