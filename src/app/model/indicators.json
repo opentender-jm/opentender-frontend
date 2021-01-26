@@ -24,6 +24,11 @@
 				"desc":"Share of contracts for which the length of time between the call for tender publication and the bid deadline was not significantly different from other contracts' advertisement period.",
 				"order":4
 			},
+			"INTEGRITY_DECISION_PERIOD":{
+				"name":"Length of decision period",
+				"desc":"Share of contracts for which the length of the period from bid deadline to decision on contract award was not significantly different from other contracts' decision period.",
+				"order":0
+			},
 			"INTEGRITY_WINNER_CA_SHARE":{
 				"name":"Winner's contract share",
 				"desc":"Winner's contract share is the share of contract value won by a given company from a given buyer in a given year. The low value of this indicator signals the risk of the buyer being dependent on one or few companies which may lead to vulnerability for extortion and corruption.",
